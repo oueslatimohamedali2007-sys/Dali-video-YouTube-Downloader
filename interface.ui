@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>687</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>YouTube Video Downloader</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #121212; font-family: 'Segoe UI', Arial, sans-serif;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>551</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#ff0000;&quot;&gt;Dali video YouTube Downloader&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#e0e0e0;&quot;&gt;Paste your link here:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="l1">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>125</y>
+     <width>431</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit { background-color: #2b2b2b; color: #ffffff; border: 2px solid #3d3d3d; border-radius: 8px; padding: 0px 15px; font-size: 11pt; } QLineEdit:focus { border: 2px solid #ff0000; }</string>
+   </property>
+   <property name="placeholderText">
+    <string>https://www.youtube.com/watch?v=...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>215</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#e0e0e0;&quot;&gt;Save location:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="l2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>210</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit { background-color: #2b2b2b; color: #a0a0a0; border: 2px solid #3d3d3d; border-radius: 8px; padding: 0px 15px; font-size: 11pt; }</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Choose a folder...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>210</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { background-color: #444444; color: white; border: none; border-radius: 8px; font-size: 11pt; font-weight: bold; } QPushButton:hover { background-color: #666666; }</string>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>320</y>
+     <width>587</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QProgressBar { background-color: #2b2b2b; border: 2px solid #3d3d3d; border-radius: 8px; text-align: center; color: white; font-weight: bold; font-size: 11pt; } QProgressBar::chunk { background-color: #ff0000; border-radius: 6px; }</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b1">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>470</y>
+     <width>161</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { background-color: #ff0000; color: white; border: none; border-radius: 8px; font-size: 14pt; font-weight: bold; } QPushButton:hover { background-color: #cc0000; } QPushButton:disabled { background-color: #555555; color: #888888; }</string>
+   </property>
+   <property name="text">
+    <string>Download</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>470</y>
+     <width>161</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { background-color: #444444; color: white; border: none; border-radius: 8px; font-size: 14pt; font-weight: bold; } QPushButton:hover { background-color: #666666; } QPushButton:disabled { background-color: #2b2b2b; color: #555555; }</string>
+   </property>
+   <property name="text">
+    <string>Stop</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
