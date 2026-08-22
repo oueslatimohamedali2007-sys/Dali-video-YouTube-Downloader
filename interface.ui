@@ -7,11 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>687</width>
-    <height>563</height>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>YouTube Video Downloader</string>
+   <string>Dali Video YouTube Downloader </string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="logo"/>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: #121212; font-family: 'Segoe UI', Arial, sans-serif;</string>
@@ -20,39 +23,39 @@
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>30</y>
+     <y>20</y>
      <width>551</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#ff0000;&quot;&gt;Dali video YouTube Downloader&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#ff0000;&quot;&gt;Dali Video YouTube Downloader&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>130</y>
-     <width>201</width>
+     <y>90</y>
+     <width>190</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#e0e0e0;&quot;&gt;Paste your link here:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#e0e0e0;&quot;&gt;Paste your link here:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="l1">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>125</y>
+     <x>220</x>
+     <y>85</y>
      <width>431</width>
-     <height>51</height>
+     <height>45</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">QLineEdit { background-color: #2b2b2b; color: #ffffff; border: 2px solid #3d3d3d; border-radius: 8px; padding: 0px 15px; font-size: 11pt; } QLineEdit:focus { border: 2px solid #ff0000; }</string>
+    <string notr="true">QLineEdit { background-color: #2b2b2b; color: #ffffff; border: 2px solid #3d3d3d; border-radius: 8px; padding: 0px 15px; font-size: 10pt; } QLineEdit:focus { border: 2px solid #ff0000; }</string>
    </property>
    <property name="placeholderText">
     <string>https://www.youtube.com/watch?v=...</string>
@@ -62,26 +65,26 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>215</y>
-     <width>201</width>
+     <y>150</y>
+     <width>190</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#e0e0e0;&quot;&gt;Save location:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#e0e0e0;&quot;&gt;Save location:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="l2">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>210</y>
+     <x>220</x>
+     <y>145</y>
      <width>291</width>
-     <height>51</height>
+     <height>45</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">QLineEdit { background-color: #2b2b2b; color: #a0a0a0; border: 2px solid #3d3d3d; border-radius: 8px; padding: 0px 15px; font-size: 11pt; }</string>
+    <string notr="true">QLineEdit { background-color: #2b2b2b; color: #a0a0a0; border: 2px solid #3d3d3d; border-radius: 8px; padding: 0px 15px; font-size: 10pt; }</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -93,10 +96,10 @@
   <widget class="QPushButton" name="b3">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>210</y>
+     <x>520</x>
+     <y>145</y>
      <width>131</width>
-     <height>51</height>
+     <height>45</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -106,11 +109,56 @@
     <string>Browse</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_quality">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>190</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#e0e0e0;&quot;&gt;Select Quality:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="qualityCombo">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>205</y>
+     <width>431</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox { background-color: #2b2b2b; color: #ffffff; border: 2px solid #3d3d3d; border-radius: 8px; padding: 0px 15px; font-size: 10pt; font-weight: bold; } QComboBox::drop-down { border: none; } QComboBox QAbstractItemView { background-color: #2b2b2b; color: #ffffff; selection-background-color: #ff0000; }</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="statusLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>265</y>
+     <width>587</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #a0a0a0; font-size: 10pt; font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
   <widget class="QProgressBar" name="progressBar">
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>320</y>
+     <y>300</y>
      <width>587</width>
      <height>30</height>
     </rect>
@@ -126,7 +174,7 @@
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>470</y>
+     <y>400</y>
      <width>161</width>
      <height>45</height>
     </rect>
@@ -142,7 +190,7 @@
    <property name="geometry">
     <rect>
      <x>360</x>
-     <y>470</y>
+     <y>400</y>
      <width>161</width>
      <height>45</height>
     </rect>
