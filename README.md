@@ -1,4 +1,4 @@
-# YouTube Video Downloader 🎥
+# Dali video YouTube Downloader 🎥
 
 A desktop application built with **Python**, **PyQt5**, and **yt-dlp** that allows you to download videos from YouTube with high-quality video and audio. The application features a modern dark-themed interface, custom download folder selection, real-time progress tracking, download cancellation, and background threading to keep the UI responsive.
 
@@ -38,8 +38,8 @@ The application uses:
 Clone the repository using Git:
 
 ```bash
-git clone https://github.com/oueslatimohamedali2007-sys/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/oueslatimohamedali2007-sys/Dali-video-YouTube-Downloader.git
+cd Dali-video-YouTube-Downloader
 ```
 
 Alternatively, download the repository as a `.zip` file from GitHub and extract it.
@@ -68,7 +68,7 @@ These files are required to merge the separate video and audio streams downloade
 Your project directory should look similar to this:
 
 ```text
-YouTube-Video-Downloader/
+Dali-video-YouTube-Downloader/
 │
 ├── main.py          # Main Python application
 ├── interface.ui     # Qt Designer interface
@@ -146,7 +146,7 @@ pip install --upgrade PyQt5 yt-dlp
 
 This application is intended for downloading content that you have permission to download or that is otherwise legally available for downloading.
 
-Users are responsible for complying with **YouTube's Terms of Service**, copyright laws, and any other applicable regulations. The project does not encourage unauthorized downloading or redistribution of copyrighted content.
+Users are responsible for complying with YouTube's Terms of Service, copyright laws, and any other applicable regulations. The project does not encourage unauthorized downloading or redistribution of copyrighted content.
 
 ---
 
